@@ -1,0 +1,28 @@
+<html> 
+    <head> 
+        <title> Comment Form </title>
+    </head>
+    <body>
+        <h1>Send Us Your Comments</h1>
+        <p>Required Fields marked with an asterisk *</p>
+        <form background-color="#eaeaea"font-famil="Arial,sans-serif", padding="10px">
+            
+                <label for="name" style="float:left; width:100px; clear:left; text-align:right; padding-right:10px ; margin-top:10px" >*Name:</label>
+                <Input type="text" name="email" id="name" required>
+            <br>
+            <br>
+                <label for="Email" style="float:left; width:100px; clear:left; text-align:right; padding-right:10px ; margin-top:10px">*E-Mail:</label>
+                <Input type="text" name="Email" id="Email" required>
+            <br>
+            <br>
+                <label for="Rating" style="float:left; width:100px; clear:left; text-align:right; padding-right:10px ; margin-top:10px">Rating(1-10):</label>
+                <input type="range" name="Rating" id="Rating" min=1 max="10">
+            <br>
+            <br>
+                <label for="Comments" style="float:left; width:100px; clear:left; text-align:right; padding-right:10px ; margin-top:10px">*Comments:</label>
+                <textarea name="Comments" id="Comments"rows="5" cols="30" style="margin-top: 10px; display: block;"required></textarea>
+            <br>
+                <button type="submit" name="submit" id="submit"style="margin-left: 110px;">Submit</button>
+        </form>
+    </body>
+</html>
