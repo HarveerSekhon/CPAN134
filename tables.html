@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML TABLES</title>
+    </head>
+    <body>
+        <table style=padding:20px border="1">
+            <caption></caption>
+        <thead>
+            <tr>
+                <th id="Name" style=text-align:left>Name</th>
+                <th id="E-mail"style=text-align:left>date</th>
+                <th id="Years Of Service">Years Of Service</th>
+            </tr>
+        </thead>
+        <tbody>  
+            <tr>
+                <td headers="name">Joel Murach</td>
+                <td headers="E-mail">joelmurach@hotmail.com</td>
+                <td style= text-align:right headers="Years Of Service"> 22</td>
+            </tr>
+            <tr>
+                <td header="name">Anne Boehm </td>
+                <td header="E-mail"> Anne@murach.com</td>
+                <td style= text-align:right headers="Years Of Service"> 34 </td>
+            </tr>
+            <tr>
+                <td headers="name">Zak Smith</td>
+                <td headers="E-mail"> Zak@gmail.com</td>
+                <td style= text-align:right headers="Years Of Service">  4 </td>
+            </tr>
+            <tr>
+                <td headers="name"> Judy Taylor</td>
+                <td headers="E-mail"> Judy@murach.com </td>
+                <td style= text-align:right headers="Years Of Service"> 39 </td>
+            </tr>
+            <tr>
+                <td headers="name"> Cyndi Vasquez</td>
+                <td headers="E-mail"> Cyndi@murach.com</td>
+                <td style= text-align:right headers="Years Of Service"> 10 </td>
+            </tr>
+            <tr>
+                <td headers="name"> Kelly Doe</td>
+                <td headers="E-mail"> Kelly@murach.com</td>
+                <td style= text-align:right headers="Years Of Service"> 25 </td>
+            </tr>
+                <td headers="name"> Juliette Baylon</td>
+                <td headers="E-mail"> Jbaylon@murach.com</td>
+                <td style= text-align:right headers="Years Of Service">1 </td>
+        </tbody>
+        <tfoot>
+            <tr>
+            </tr>
+        </tfoot> 
+        </table>
+        
+        <br>
+        <br>
+        <br>
+
+        <table style=padding:20px;display:inline-block; cellspacing="0" border="1" >
+            <thead> 
+                <caption style=font-weight:bolder;> Employee Table </caption>
+            
+                <tr> 
+                    
+                    <th id="Department" style=text-align:left>Department</th>
+                    <th id="name" style=text-align:left>Name</th>
+                    <th id="E-mail"style=text-align:left>E-mail</th>
+                    <th id="Years Of Service"style=text-align:left>Years Of Service</th>
+
+
+                </tr>
+            </thead>
+            <tbody>  
+                <tr>
+                    <td headers="Department" rowspan="3" style=font-weight:bold>Editorial</td>
+                    <td headers="name">Joel Murach</td>
+                    <td headers="E-mail">joelmurach@hotmail.com</td>
+                    <td style= text-align:right headers="Years Of Service"> 22</td>
+                    
+                </tr>
+                <tr>
+                    <td header="name" >Anne Boehm </td>
+                    <td header="E-mail" > Anne@murach.com</td>
+                    <td style= text-align:right headers="Years Of Service"> 34 </td>
+                </tr>
+                <tr>
+                    <td headers="name">Zak Smith</td>
+                    <td headers="E-mail"> Zak@gmail.com</td>
+                    <td style= text-align:right headers="Years Of Service">  4 </td>
+                </tr>
+                <tr>
+                    <td headers="Department" rowspan="2" style=font-weight:bold>Marketing</td>
+                    <td headers="name" >Judy Taylor</td>
+                    <td headers="E-mail">judy@murach.com</td>
+                    <td style= text-align:right headers="Years Of Service"> 39</td>
+                    
+                </tr>
+                <tr>
+                    <td header="name" >Cyndi Vasquez </td>
+                    <td header="E-mail" > Cyndi@murach.com</td>
+                    <td style= text-align:right headers="Years Of Service"> 34 </td>
+                </tr>
+                <tr>
+                    <td headers="Department" rowspan="2" style=font-weight:bold>Customer Service</td>
+                    <td headers="name" >Kelly Slivkoff</td>
+                    <td headers="E-mail">kelly@murach.com</td>
+                    <td style= text-align:right headers="Years Of Service"> 25</td>
+                    
+                </tr>
+                <tr>
+                    <td header="name" >Juliette baylon </td>
+                    <td header="E-mail" > juliette@murach.com</td>
+                    <td style= text-align:right headers="Years Of Service"> 1</td>
+                </tr>
+                
+                 
+            </tbody>
+            <tfoot>
+                
+                    <td style=font-weight:bold;text-align:right colspan="3"> Total Years of Service </td>
+                    <td header="Years Of Service" style=font-weight:bold;text-align:right>105</td>
+                
+            </tfoot> 
+        </table>
+    </body>
+</html>
